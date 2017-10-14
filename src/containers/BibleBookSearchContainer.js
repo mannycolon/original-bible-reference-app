@@ -14,7 +14,7 @@ class BibleBookSearchContainer extends React.Component {
       selectedChapter,
       selectedVerse
     } = this.props.bibleIndexReducer;
-    console.log(this.props.resourcesReducer)
+
     return (
       <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap' }}>
         <BibleBookDropdown

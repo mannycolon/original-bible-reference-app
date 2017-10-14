@@ -18,7 +18,7 @@ const BibleVerseDropdown = ({
       ++value;
     }
   }
-  console.log(verses)
+
   return (
     <div>
       <SelectField
