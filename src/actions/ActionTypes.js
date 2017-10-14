@@ -1,0 +1,10 @@
+const ActionTypes = {
+  // bible index reducer
+  UPDATE_SELECTED_BOOK: 'UPDATE_SELECTED_BOOK',
+  UPDATE_SELECTED_CHAPTER: 'UPDATE_SELECTED_CHAPTER',
+  UPDATE_SELECTED_VERSE: 'UPDATE_SELECTED_VERSE',
+  // resources reducer
+  LOAD_BIBLE_DATA: 'LOAD_BIBLE_DATA'
+};
+
+export default ActionTypes;
